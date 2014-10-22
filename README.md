@@ -8,7 +8,3 @@ Here are some social buttons that don't require any Javascript. Just HTML, CSS, 
 ### Contributors
 
  * Author: [Gregory Schier](http://schier.co)
-
-### License
-
-  [MIT](LICENSE)
