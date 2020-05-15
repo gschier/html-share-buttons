@@ -1,86 +1,64 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-    /** Social Button CSS **/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
-    .share-btns { 
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      display: flex;
-      align-items:center;
-      justify-content: center;
-    }
+.fa:hover {
+    opacity: 0.7;
+}
 
-    .share-btn {
-      display: inline-block;
-      color: #ffffff;
-      border: none;
-      padding: 0.1em 0.6em;
-      outline: none;
-      text-align: center;
-      font-size: 0.9em;
-      margin: 0 0.2em;
-    }
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 
-    .share-btn:focus,
-    .share-btn:hover {
-      text-decoration: none;
-      opacity: 0.8;
-    }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
-    .share-btn:active {
-      color: #e2e2e2;
-    }
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
 
-    .share-btn.twitter { background: #55acee; }
-    .share-btn.google-plus { background: #dd4b39; }
-    .share-btn.facebook { background: #3B5998; }
-    .share-btn.stumbleupon { background: #EB4823; }
-    .share-btn.reddit { background: #ff5700; }
-    .share-btn.hackernews { background: #ff6600; }
-    .share-btn.linkedin    { background: #4875B4; }
-    .share-btn.email { background: #444444; }
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 </style>
 </head>
 <body>
-    <h1>Share Buttons</h1>
 
-    <div class="share-btns">
-      <a
-        class="share-btn twitter"
-        href="https://twitter.com/share?url=<URL>&text=<TITLE>&via=GregorySchier"
-        target="_blank"
-      >Twitter</a>
+<h1>Share buttons</h1>
 
-      <a
-        class="share-btn facebook"
-        href="https://www.facebook.com/sharer/sharer.php?u=<URL>"
-        target="_blank"
-      >Facebook</a>
-
-      <a
-        class="share-btn reddit"
-        href="https://reddit.com/submit?url=<URL>&title=<TITLE>"
-        target="_blank"
-      >Reddit</a>
-
-      <a
-        class="share-btn hackernews"
-        href="https://news.ycombinator.com/submitlink?u=<URL>&t=<TITLE>"
-        target="_blank"
-      >Hacker News</a>
-
-      <a
-        class="share-btn linkedin"
-        href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>"
-        target="_blank"
-      >LinkedIn</a>
-
-      <a
-        class="share-btn email"
-        href="mailto:?subject=<TITLE>&body=<URL>"
-        target="_blank"
-      >Email</a>
-    </div>
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-reddit"></a>
+<a href="#" class="fa fa-rss"></a>
+      
 </body>
-</html>
+</html> 
